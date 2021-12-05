@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * @author fuxin
  * @times 20 mins
- * @date 2021.12.02 10:26
+ * @date 2021/12/02 10:26
  * @title 506. 相对名次
  * @url https://leetcode-cn.com/problems/relative-ranks/
  */
