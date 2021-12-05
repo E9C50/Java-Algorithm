@@ -3,6 +3,7 @@ package leetcode;
 /**
  * @author fuxin
  * @times 20 mins
+ * @date 2021.11.28 11:02
  * @title 1432. 改变一个整数能得到的最大差值
  * @url https://leetcode-cn.com/problems/max-difference-you-can-get-from-changing-an-integer/
  */
