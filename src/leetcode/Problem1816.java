@@ -3,7 +3,7 @@ package leetcode;
 /**
  * @author fuxin
  * @times 10 mins
- * @date 2021/12/26 7:22
+ * @date 2021/12/06 7:22
  * @title 1816. 截断句子
  * @url https://leetcode-cn.com/problems/truncate-sentence/
  */
