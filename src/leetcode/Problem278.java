@@ -7,7 +7,13 @@ package leetcode;
  * @title 278. 第一个错误的版本
  * @url https://leetcode-cn.com/problems/first-bad-version/
  */
-public class Problem278 extends VersionControl {
+public class Problem278 {
+    static int count = 0;
+
+    public static boolean isBadVersion(int version) {
+        count++;
+        return version >= 1702766719;
+    }
 
     public static int firstBadVersion(int n) {
         int left = 1, right = n;
@@ -25,15 +31,5 @@ public class Problem278 extends VersionControl {
     public static void main(String[] args) {
         System.out.println(firstBadVersion(2126753390));
         System.out.println(count);
-    }
-}
-
-
-class VersionControl {
-    static int count = 0;
-
-    public static boolean isBadVersion(int version) {
-        count++;
-        return version >= 1702766719;
     }
 }
